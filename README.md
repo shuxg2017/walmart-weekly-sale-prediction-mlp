@@ -24,6 +24,8 @@ Total Observations | 60% Train | 20% Valid | 20% Test
 
 ### Result Overview
 
+**We achieved MAE 1677!!!**
+
 Model Structure | # of params | Other Techniques | Data Increment | Train MAE | Validation MAE | Test MAE | Result
 ----------------|-------------|------------------|----------------|-----------|----------------|----------|--------
 32/16/8/1 | 5,889 | None | 0 | 1790 | 1819 | 1811 | Poor performance on Black Friday and Pre Christmas
