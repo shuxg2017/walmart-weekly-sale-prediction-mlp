@@ -1,6 +1,8 @@
 # Walmart Weekly Sale Prediction By Neural Network
 
-### In this project, we used univariate ARIMA or univariate LSTM to forecast Walmart weekly sale, but the performances were very poor. Therefore, we moved to multivariate model.
+### In this project, we used univariate ARIMA or univariate LSTM to forecast Walmart weekly sale, but the performances were very poor. Therefore, we moved to multivariate model. The image below was our final result.
+
+![Final Result](https://github.com/shuxg2017/Walmart-weekly-sale-prediction-by-MLP/blob/master/results/result.png)
 
 ## Introduction
 
@@ -13,6 +15,13 @@ Total Observations | 60% Train | 20% Valid | 20% Test
 -------------------|-----------|-----------|----------
 421,570 | 252,942 | 84,314 | 84,314
 
+- The image below shows overall weekly sales across 45 stores in the time order.
+  - Black dots: Black Fridays.
+  - Blue dots: Pre Christmas days
+  - Actual Christmas: there were the steepest drops.
+
+![TimeSeries](https://github.com/shuxg2017/Walmart-weekly-sale-prediction-by-MLP/blob/master/results/Overall_Weekly_Sale.png)
+
 ### Result Overview
 
 Model Structure | # of params | Other Techniques | Data Increment | Train MAE | Validation MAE | Test MAE | Result
@@ -21,7 +30,9 @@ Model Structure | # of params | Other Techniques | Data Increment | Train MAE | 
 64/32/16/8/1 | 13,185 | Oversampling Black Friday (repeat 10 times) & Pre Christmas (2 times) | Black Friday: 16,128 & Pre Christmas: 10,710 | **1636** | **1679** | **1677** | Best MAE, no overfitting
 
 
-## Feature Engineering
+### Feature Engineering
+
+![EncodedSpecialDays](https://github.com/shuxg2017/Walmart-weekly-sale-prediction-by-MLP/blob/master/results/OneHotEncodeExample.png)
 
 **Remapping 15 original features into 162 features.**
 
