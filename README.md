@@ -59,7 +59,7 @@ Model Structure | # of params | Other Techniques | Data Increment | Train MAE | 
     - Christmas just ended or not
     - IsHoliday
     - Temperature: cold, cool, warm, mild, hot
-    - MarDown: present or not present
+    - MarkDown: present or not present
   - Remove Store Size
   - Untouched
     - Fuel_Price
