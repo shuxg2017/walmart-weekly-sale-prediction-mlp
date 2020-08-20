@@ -1,12 +1,12 @@
 # Walmart Weekly Sale Prediction By Neural Network
 
-### In this project, we used univariate ARIMA or univariate LSTM to forecast Walmart weekly sale, but the performances were very poor. Therefore, we moved to multivariate model. The image below was our final result. The model was pretty powerful, it can predict weekly sales in any stores with any departments.
+### In this project, I used univariate ARIMA or univariate LSTM to forecast Walmart weekly sale, but the performances were very poor. Therefore, I moved to multivariate model. The image below was my final result. The model was pretty powerful, it can predict weekly sales in any stores with any departments.
 
 ![Final Result](https://github.com/shuxg2017/Walmart-weekly-sale-prediction-by-MLP/blob/master/results/result.png)
 
 ## Introduction
 
-We trained a very simple neural network (fully connected layers) to predict Walmart weekly sale. Before training the model, we did data integration and feature engineering. In addition, we searched the same work which were done by other machine learning engineers. The metrics they used were mean absolute error (MAE). Achieving MAE below 2000 will be a good result.
+I trained a very simple neural network (fully connected layers) to predict Walmart weekly sale. Before training the model, I did data integration and feature engineering. In addition, I searched the same work which were done by other machine learning engineers. The metrics they used were mean absolute error (MAE). Achieving MAE below 2000 will be a good result.
  **Goal: reduce the MAE below 2000.**
 
 ### Data Overview
